@@ -17,6 +17,9 @@ Desenvolvido com HTML, CSS e Javascript.
 
 Inicialmente utilizado HTML e suas tags semânticas para montagem do corpo da página. No CSS, utilizado recursos para estilização, efeitos animados e disponibilizado a opção do tema Dark e Light Mode para garantir uma experiência ao usuário mais eficaz. Além de criar a aplicação de maneira responsiva. E por fim, utilizado Javascript para criação de funções e callbacks, criação de eventos e manipulação do DOM.
   
+ https://alecamargo77.github.io/New-Calculator/#
+ 
+ <p dir="auto">Link para acessar o projeto: <a href="https://alecamargo77.github.io/New-Calculator/#"> Calculadora </a></p>
  Interface:
 
 ![Calculadora](https://user-images.githubusercontent.com/105398640/192164947-6be16467-c2ec-4bd9-8fa9-c75b9ea99db9.gif)
