@@ -1,3 +1,5 @@
+import { calculate } from "./calculate.js";
+
 const input = document.getElementById("input");
 const result = document.getElementById("result");
 const main = document.querySelector("main");
@@ -7,27 +9,6 @@ const light = document.getElementById("light");
 const copy = document.getElementById("copyToClipboard");
 moon.style.display = "none";
 light.style.display = "block";
-
-const allowedKeys = [
-  "(",
-  ")",
-  "/",
-  "*",
-  "-",
-  "+",
-  "9",
-  "8",
-  "7",
-  "6",
-  "5",
-  "4",
-  "3",
-  "2",
-  "1",
-  "0",
-  ".",
-  " ",
-];
 
 input.addEventListener("keydown", function (ev) {
   ev.preventDefault();
@@ -60,14 +41,6 @@ document.getElementById("clear").addEventListener("click", function () {
 });
 
 document.getElementById("equal").addEventListener("click", calculate);
-
-function calculate() {
-  result.value = "ERRO";
-  result.classList.add("error");
-  const equal = eval(input.value);
-  result.value = equal;
-  result.classList.remove("error");
-}
 
 document.querySelectorAll(".charKey").forEach(function (char) {
   char.addEventListener("click", function () {
